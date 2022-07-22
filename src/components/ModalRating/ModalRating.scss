@@ -1,0 +1,92 @@
+.MuiDialogTitle-root {
+  align-items: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.button_cancel{
+  justify-content: center !important;
+}
+
+.modalReview {
+
+  .addNewBook_error {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fc6681;
+    margin-left: auto;
+    margin-top: 10px;
+  }
+  .inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1c2a39;
+    cursor: default;
+    white-space: nowrap;
+    margin-right: 35px;
+  }
+  .input_block__one {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 35px;
+
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #1c2a39;
+      cursor: default;
+      // width: 25%;
+      white-space: nowrap;
+    }
+
+    input {
+      width: 410px;
+      height: 30px;
+      background: #f5f5f5;
+      border: 1px solid #898989;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      outline: none;
+    }
+
+    textarea {
+      width: 410px !important;
+      height: 190px !important;
+      background: #f5f5f5;
+      border: 1px solid #898989;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      outline: none;
+      resize: none;
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 1px 2px;
+    }
+
+    .input_description {
+      height: 190px;
+    }
+  }
+}

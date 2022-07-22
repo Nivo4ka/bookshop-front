@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.containerReg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width:100vw;
+  height: 100%;
+}
+
+.registration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  
+
+  img {
+    margin-top: 90px;
+    width: 40%;
+  }
+
+  .registration__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500%;
+    height: 100%;
+
+    button {
+      border: 1px solid #4C3DB2;
+      box-sizing: border-box;
+      width: 240px;
+      height: 40px;
+
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 16px; 
+      text-transform: uppercase;
+      color: #4C3DB2;
+      background-color: #FFFFFF;
+      margin-top: 20px;
+      outline: none;
+    }
+
+    button:hover {
+      cursor: pointer;
+      color: #FFFFFF;
+      background-color: #4C3DB2;
+    }
+  }
+
+  .registration__form_lable {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #4C3DB2;
+    margin-bottom: 30px;
+  }
+
+  .registration__form_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 450px;
+    height: auto;
+    margin-bottom: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4C3DB2;
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  .registration__form_input {
+    width: 450px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #4C3DB2;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 5px;
+  }
+
+  .registration__form_error {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FC6681;
+  }
+
+  .registration__form_link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #4C3DB2;
+
+    margin-top: 40px;
+  }
+}

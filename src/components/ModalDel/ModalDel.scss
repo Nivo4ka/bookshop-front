@@ -1,0 +1,61 @@
+
+.MuiDialogActions-root {
+  padding: 15px !important;
+  justify-content: space-around !important;
+}
+
+.button_canc {
+  border: 1px solid #4c3db2;
+  box-sizing: border-box;
+  width: 165px;
+  height: 50px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #4c3db2;
+  background-color: #ffffff;
+  margin-top: 30px;
+  outline: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_canc:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4c3db2;
+}
+
+.button_del {
+  border: 1px solid #FC6681;
+  box-sizing: border-box;
+  width: 165px;
+  height: 50px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #FC6681;
+  background-color: #ffffff;
+  margin-top: 30px;
+  outline: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_del:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #FC6681;
+}
